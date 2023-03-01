@@ -29,7 +29,8 @@
       "configurations": {
         "development": {
           "buildTarget": "treez-fe:build:development",
-          "hmr": true
+          "hmr": true,
+          "baseHref":"http://localhost:3000"
         },
         "production": {
           "buildTarget": "treez-fe:build:production",
